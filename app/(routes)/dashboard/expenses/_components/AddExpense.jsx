@@ -49,7 +49,7 @@ function AddExpense({budgetId,user,refreshData}) {
             <Input
                 value={amount}
                 type="number"
-                placeholder="e.g $200"
+                placeholder="e.g 200"
                 onChange={(e) => setAmount(e.target.value)}
             />
         </div>

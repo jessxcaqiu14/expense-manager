@@ -103,7 +103,7 @@ function CreateBudget({refreshData}) {
                             <Input
                                 value={amount}
                                 type="number"
-                                placeholder="e.g $1000"
+                                placeholder="e.g 1000"
                                 onChange={(e) => setAmount(e.target.value)}
                             />
                         </div>
